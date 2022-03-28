@@ -48,6 +48,7 @@ export default {
 
     //ejemplo 1 promesa
       consumirCanciones(this.artista, this.cancion).then( letra => console.log(letra.lyrics));
+      return letra;
 
       //ejemplo 2
       //const letraCancion = await consumirCanciones(this.artista, this.cancion);
